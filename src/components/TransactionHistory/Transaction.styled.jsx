@@ -24,7 +24,7 @@ thead {
     :not(:last-child) {
       border-right: 1px solid #ffffff;
     }
-    :first-child {
+    :first-of-type {
       border-top-left-radius: 4px;
     }
     :last-child {
@@ -33,7 +33,7 @@ thead {
 }
   tbody {
     tr {
-      :nth-child(2n) {
+      :nth-of-type(2n) {
         background-color: #F5F5F5;
       }
     }
